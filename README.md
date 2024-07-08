@@ -1,6 +1,5 @@
-# Master of Analytics Student at University of California, Berkeley
+# My Projects
 
-## Academic Projects
 ### SIMIO WAREHOUSE: Fall 2023 Simio Case Study (_Fall 2023_)
 - Created and optimized a simulation model using Simio for an e-commerce warehouse 
 - Analyzed reorder points and quantities for 3 products, to reduce costs and ensure timely orders
