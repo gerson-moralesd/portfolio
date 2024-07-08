@@ -1,4 +1,11 @@
-title: Gerson Aaron Morales
+format: html
+include-in-header:
+  - text: |
+      <style>
+        text-align: center;
+      }
+      </style>
+title: Gerson A Morales
 logo: /assets/img/Head Shot.png
 description:
 - | 
