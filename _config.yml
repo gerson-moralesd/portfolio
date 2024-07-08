@@ -1,11 +1,14 @@
 format: html
 include-in-header:
-  - text: Gerson Morales
+  - text: |
       <style>
         text-align: center;
       }
       </style>
-#title: Gerson Morales
+::: 
+Gerson Morales
+:::
+title: Gerson Morales
 logo: /assets/img/Head Shot.png
 description:
 - | 
