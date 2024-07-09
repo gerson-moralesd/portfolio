@@ -1,7 +1,6 @@
 
 '''
 Resolviendo retos logísticos con optimización y simulación
-26 - 30 de junio de 2023
 Departamento de Ingeniería Industrial
 Facultad de Ingeniería
 Universidad de los Andes
@@ -13,15 +12,11 @@ import pulp as lp
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.colors as cm
-# TODO: instalar librerías (en caso de ser necesario)
 
 
 ### lectura de datos
 tabla1 = pd.read_excel('./data.xlsx', sheet_name = 'clientes', index_col = [0])
 tabla2 = pd.read_excel('./data.xlsx', sheet_name = 'bodegas', index_col = [0])
-#documentación pandas: https://pandas.pydata.org/
-#index_col: identificador único de cada registro (fila)
-
 
 ### conjuntos
 # TODO: definir los conjuntos
@@ -32,20 +27,10 @@ C = [j for j in tabla1.index]
 print(f'El número de bodegas es: {len(B)}')
 print(f'El número de clientes es: {len(C)}')
 
-# f-strings: las expresiones entre los catacteres '{' '}' hacen referencia
-# a variables o valores literales
-
-nombre = "Daniel"
-print(f"{nombre}")
-
-
 ### parámetros
 demandaMin = {j : tabla1.iloc[j-1, 2] for j in C}   
 demandaMax = {j : tabla1.iloc[j-1, 3] for j in C}    
 demandaModa = {j : tabla1.iloc[j-1, 4] for j in C}    
-#iloc: selecciona un valor de la tabla según una fila y columna. 
-#Nota: la numeración de las filas y columnas arranca en 0. 
-#Nota: para la numeración de las columnas, no se tiene en cuenta el índice. 
 
 d = {j : round(demandaModa[j],2) for j in C}    # demanda mensual esperada (ton de café)
 
@@ -83,7 +68,7 @@ plt.ylabel('Coordenada $y$')
 plt.xlim(-5,210)                                                # límites de los ejes
 plt.ylim(-5, 110)
 plt.grid(alpha = 0.2)
-plt.savefig('./resultados/ubicaciones.png', dpi=1200, format='png', bbox_inches='tight')
+plt.savefig('./resultadosModa/ubicaciones.png', dpi=1200, format='png', bbox_inches='tight')
 plt.show()
 
 ### modelo de optimización
@@ -161,7 +146,7 @@ for i in B:
         bodegasNoOperando.append(i)
         
 df = pd.DataFrame(resultados, columns = ['Id', 'Clientes atendidos', '# de clientes atendidos', 'Capacidad Usada', 'Capacidad Total', 'Usada/Total', 'Costo fijo', 'Costo de transporte'])      
-df.to_excel('./resultados/resultadosOptimizacion.xlsx', index = False)
+df.to_excel('./resultadosModa/resultadosOptimizacion.xlsx', index = False)
 
 
 ### gráficos (plots)
@@ -183,7 +168,7 @@ for i in bodegasOperando:
         
 # TODO: agregarle al gráfico los títulos 
 
-plt.savefig('./resultados/redDistribucion.png', dpi=1200, format='png', bbox_inches='tight')
+plt.savefig('./resultadosModa/redDistribucion.png', dpi=1200, format='png', bbox_inches='tight')
 plt.show()
 
 # costos
@@ -192,7 +177,7 @@ costos = [sum(c[i,j]*x[i,j].value() for i in B for j in C), sum(f[i]*y[i].value(
 etiquetas = ['Costo de transporte', 'Costo fijo']
 
 
-plt.savefig('./resultados/segmentacionCostos.png', dpi=1200, format='png')
+plt.savefig('./resultadosModa/segmentacionCostos.png', dpi=1200, format='png')
 plt.show()
 
 # operación de las bodegas
@@ -205,7 +190,7 @@ plt.xticks(ticks = [i for i in range(1,len(bodegasOperando)+1)], labels = bodega
 # TODO: agregarle los títulos al gráfico
 
 
-plt.savefig('./resultados/operacionBodegas.png', dpi=1200, format='png', bbox_inches='tight')
+plt.savefig('./resultadosModa/operacionBodegas.png', dpi=1200, format='png', bbox_inches='tight')
 plt.show()
 
 ### SIMULACIÓN
@@ -246,7 +231,7 @@ Costo['Histograma de los costos totales'] = costosTotales
 Costo.hist(bins=30, color='#ff008b')
 plt.xlabel('Costo total mensual (miles de COP)',fontsize=12)
 plt.ylabel('Frencuencia',fontsize=12)
-plt.savefig('./resultados/histogramaCostoTotal.png', dpi=1200, format='png')
+plt.savefig('./resultadosModa/histogramaCostoTotal.png', dpi=1200, format='png')
 plt.show()
 
 # TODO: estadísticas descriptivas del costo total
@@ -262,7 +247,7 @@ Demanda.hist(bins=30, color='#01d6fe')
 plt.axvline(x=k[bodegaInteres], color='r', linestyle='--')
 plt.xlabel('Demanda mensual (ton de café)',fontsize=12)
 plt.ylabel('Frencuencia',fontsize=14)
-plt.savefig(f'./resultados/histogramaDemanda_bodega{bodegaInteres}.png', dpi=1200, format='png')
+plt.savefig(f'./resultadosModa/histogramaDemanda_bodega{bodegaInteres}.png', dpi=1200, format='png')
 
 
 # TODO: obtener estadísticas descriptivas para la bodega de interés
@@ -309,7 +294,7 @@ for i in bodegasOperando:
     if coords[i][1] == 0:
         axes[i].set_ylabel('Frecuencia',fontsize=12)
 fig.suptitle('Distribución de demanda total por cada bodega operando',fontsize=18)
-plt.savefig('./resultados/histogramasDemanda.png', dpi=1200, format='png')
+plt.savefig('./resultadosModa/histogramasDemanda.png', dpi=1200, format='png')
 
 
 # métricas de probabilidad de interés para demanda, capacidad y costos
