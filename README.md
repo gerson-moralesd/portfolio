@@ -10,8 +10,8 @@ We determined the best points to reorder stock and calculated optimal inventory 
 By fine-tuning our inventory policies and using the insights from the simulation, we were able to optimize the warehouse's performance, selling nearly 2 million cards monthly and maintaining reasonable costs. This project highlights the value of simulation tools like Simio in making informed decisions and improving warehouse management.
 
 ![Simio Warehouse poster](/assets/img/Simio Warehouse - Fall 2023 Simio Case Study.png)
-Open this poster in full resolution
-Find the Simio file here
+<a href="https://github.com/gerson-moralesd/portfolio/blob/main/assets/files/SIMIO%20Warehouse.pdf">View poster</a> | 
+<a href="https://github.com/gerson-moralesd/portfolio/blob/main/assets/files/SIMIO%20Warehouse.pdf">Download the simulation</a> 
 
 ### Optimizing Distribution Networks for OptiCoffee (_Summer 2023_)
 OptiCoffee aims to expand its operations in Bogotá and needs to select the best warehouses for storing and transporting coffee. The goal is to ensure a profitable expansion that can meet customer demand while maximizing warehouse capacity.
@@ -23,8 +23,8 @@ We analyzed two scenarios: one with a Triangular distribution and another using 
 This analysis helps OptiCoffee make informed decisions about warehouse selection, balancing cost with the ability to meet customer needs effectively.
 
 ![Optimizing Opticoffee poster](/assets/img/Optimizing Distributions Networks for Opticoffee.png)
-Open this poster in full resolution
-Check the Python code here
+<a href="https://github.com/gerson-moralesd/portfolio/blob/main/assets/files/OptiCoffee.pdf">View poster</a> | 
+<a href="https://github.com/gerson-moralesd/portfolio/blob/main/assets/files/SIMIO%20Warehouse.pdf">Open Python files</a> 
 
 ### Financial Analysis and Valuation for Mercado Libre - CFA Institute Research Challenge (_Spring 2023_)
 Mercado Libre (MELI) is a leading e-commerce and fintech company operating across 18 countries in Latin America. The report offers an investment analysis of the company, emphasizing its market dominance, consistent revenue growth, and resilience amidst economic challenges. MELI's one-year price target is set at $1,236.88, which suggests a 12.64% upside, based on a Discounted Cash Flow (DCF) methodology. The company's ability to expand into various high-growth services and markets underpins the favorable growth projections.
@@ -36,4 +36,5 @@ MELI's business model includes a comprehensive ecosystem of e-commerce and digit
 The report also addresses the risks and challenges faced by MELI, including operational risks like technological disruptions and macroeconomic factors such as inflation and potential recession. Nonetheless, MELI's strong market positioning, strategic expansions, and robust financial performance underscore its potential for sustained growth and value creation in the Latin American market.
 
 ![CFA Challenge - MELI Document Preview](/assets/img/CFA Challenge - MELI.png)
-Read the report here
+<a href="https://github.com/gerson-moralesd/portfolio/blob/main/assets/files/CFA%20Challenge%20-%20MELI.pdf">Read the report</a> 
+Read the report
