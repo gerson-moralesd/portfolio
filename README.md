@@ -24,7 +24,7 @@ This analysis helps OptiCoffee make informed decisions about warehouse selection
 
 ![Optimizing Opticoffee poster](/assets/img/Optimizing Distributions Networks for Opticoffee.png)
 <a href="https://github.com/gerson-moralesd/portfolio/blob/main/assets/files/OptiCoffee.pdf">View poster</a> | 
-<a href="https://github.com/gerson-moralesd/portfolio/blob/main/assets/files/SIMIO%20Warehouse.pdf">Open Python files</a> 
+<a href="https://github.com/gerson-moralesd/portfolio/tree/main/assets/files/OptiCoffee">Open Python files</a> 
 
 ### Financial Analysis and Valuation for Mercado Libre - CFA Institute Research Challenge (_Spring 2023_)
 Mercado Libre (MELI) is a leading e-commerce and fintech company operating across 18 countries in Latin America. The report offers an investment analysis of the company, emphasizing its market dominance, consistent revenue growth, and resilience amidst economic challenges. MELI's one-year price target is set at $1,236.88, which suggests a 12.64% upside, based on a Discounted Cash Flow (DCF) methodology. The company's ability to expand into various high-growth services and markets underpins the favorable growth projections.
@@ -36,5 +36,4 @@ MELI's business model includes a comprehensive ecosystem of e-commerce and digit
 The report also addresses the risks and challenges faced by MELI, including operational risks like technological disruptions and macroeconomic factors such as inflation and potential recession. Nonetheless, MELI's strong market positioning, strategic expansions, and robust financial performance underscore its potential for sustained growth and value creation in the Latin American market.
 
 ![CFA Challenge - MELI Document Preview](/assets/img/CFA Challenge - MELI.png)
-<a href="https://github.com/gerson-moralesd/portfolio/blob/main/assets/files/CFA%20Challenge%20-%20MELI.pdf">Read the report</a> 
-Read the report
+<a href="https://github.com/gerson-moralesd/portfolio/blob/main/assets/files/CFA%20Challenge%20-%20MELI.pdf">Read the report</a>
