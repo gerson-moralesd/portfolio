@@ -1,6 +1,6 @@
 # My Projects
 
-### SIMIO WAREHOUSE: Fall 2023 Simio Case Study (_Fall 2023_)
+### SIMIO WAREHOUSE: Fall 2023 Simio Case Study
 This project focuses on improving the operations of a warehouse that supports an e-commerce platform selling advanced video cards used in applications like AI and cryptocurrency mining. We used Simio simulations to figure out how many workers are needed and to create efficient inventory policies, aiming to boost efficiency, reduce costs, and keep customers happy.
 
 First, we analyzed a year’s worth of order data, then modeled the warehouse in Simio to test different management scenarios. The main tasks included handling bulk shipments of three types of video cards, testing and packaging them, and managing automated machines that sometimes fail and slow down the process.
@@ -13,7 +13,7 @@ By fine-tuning our inventory policies and using the insights from the simulation
 <a href="https://github.com/gerson-moralesd/portfolio/blob/main/assets/files/SIMIO%20Warehouse.pdf">View poster</a> | 
 <a href="https://github.com/gerson-moralesd/portfolio/blob/main/assets/files/SIMIO%20Warehouse.pdf">Download the simulation</a> 
 
-### Optimizing Distribution Networks for OptiCoffee (_Summer 2023_)
+### Optimizing Distribution Networks for OptiCoffee
 OptiCoffee aims to expand its operations in Bogotá and needs to select the best warehouses for storing and transporting coffee. The goal is to ensure a profitable expansion that can meet customer demand while maximizing warehouse capacity.
 
 To tackle this, we formulated a mathematical model to design the optimal logistics distribution network for OptiCoffee. We optimized cost-efficient coffee distribution across three national networks, considering cost and distance constraints. Our analysis included developing a Python simulation model to evaluate and refine the proposed network design.
@@ -26,7 +26,7 @@ This analysis helps OptiCoffee make informed decisions about warehouse selection
 <a href="https://github.com/gerson-moralesd/portfolio/blob/main/assets/files/OptiCoffee.pdf">View poster</a> | 
 <a href="https://github.com/gerson-moralesd/portfolio/tree/main/assets/files/OptiCoffee">Open Python files</a> 
 
-### Financial Analysis and Valuation for Mercado Libre - CFA Institute Research Challenge (_Spring 2023_)
+### Financial Analysis and Valuation for Mercado Libre - CFA Institute Research Challenge
 Mercado Libre (MELI) is a leading e-commerce and fintech company operating across 18 countries in Latin America. The report offers an investment analysis of the company, emphasizing its market dominance, consistent revenue growth, and resilience amidst economic challenges. MELI's one-year price target is set at $1,236.88, which suggests a 12.64% upside, based on a Discounted Cash Flow (DCF) methodology. The company's ability to expand into various high-growth services and markets underpins the favorable growth projections.
 
 The report highlights the evolution of MELI’s revenue streams, with the fintech sector's contribution significantly increasing in 2022, projected to surpass the commerce sector by 2024. This shift indicates a strategic move towards fintech, which is expected to drive more than half of the company's revenue in the coming years. Despite an expected adjustment in growth rates by 2023, the company is projected to maintain double-digit growth through 2025.
