@@ -1,9 +1,13 @@
 # My Projects
 
 ### SIMIO WAREHOUSE: Fall 2023 Simio Case Study (_Fall 2023_)
-- Created and optimized a simulation model using Simio for an e-commerce warehouse 
-- Analyzed reorder points and quantities for 3 products, to reduce costs and ensure timely orders
-- Tested various supplier lead times through experiments considering the 3 main statistical distributions of the problem
+This project focuses on improving the operations of a warehouse that supports an e-commerce platform selling advanced video cards used in applications like AI and cryptocurrency mining. We used Simio simulations to figure out how many workers are needed and to create efficient inventory policies, aiming to boost efficiency, reduce costs, and keep customers happy.
+
+First, we analyzed a year’s worth of order data, then modeled the warehouse in Simio to test different management scenarios. The main tasks included handling bulk shipments of three types of video cards, testing and packaging them, and managing automated machines that sometimes fail and slow down the process.
+
+We determined the best points to reorder stock and calculated optimal inventory levels for both unpackaged and packaged cards. Our simulation showed that having three workers per shift (totaling nine across three shifts) kept operations running smoothly without delays, meeting customer demand efficiently.
+
+By fine-tuning our inventory policies and using the insights from the simulation, we were able to optimize the warehouse's performance, selling nearly 2 million cards monthly and maintaining reasonable costs. This project highlights the value of simulation tools like Simio in making informed decisions and improving warehouse management.
 
 ![Simio Warehouse poster](/assets/img/Simio Warehouse - Fall 2023 Simio Case Study.png)
 
