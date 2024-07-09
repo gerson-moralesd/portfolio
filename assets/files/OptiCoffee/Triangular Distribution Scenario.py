@@ -1,7 +1,6 @@
 
 '''
 Resolviendo retos logísticos con optimización y simulación
-26 - 30 de junio de 2023
 Departamento de Ingeniería Industrial
 Facultad de Ingeniería
 Universidad de los Andes
@@ -13,14 +12,11 @@ import pulp as lp
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.colors as cm
-# TODO: instalar librerías (en caso de ser necesario)
 
 
 ### lectura de datos
 tabla1 = pd.read_excel('./data.xlsx', sheet_name = 'clientes', index_col = [0])
 tabla2 = pd.read_excel('./data.xlsx', sheet_name = 'bodegas', index_col = [0])
-#documentación pandas: https://pandas.pydata.org/
-#index_col: identificador único de cada registro (fila)
 
 
 ### conjuntos
@@ -32,20 +28,10 @@ C = [j for j in tabla1.index]
 print(f'El número de bodegas es: {len(B)}')
 print(f'El número de clientes es: {len(C)}')
 
-# f-strings: las expresiones entre los catacteres '{' '}' hacen referencia
-# a variables o valores literales
-
-nombre = "Daniel"
-print(f"{nombre}")
-
-
 ### parámetros
 demandaMin = {j : tabla1.iloc[j-1, 2] for j in C}   
 demandaMax = {j : tabla1.iloc[j-1, 3] for j in C}    
-demandaModa = {j : tabla1.iloc[j-1, 4] for j in C}    
-#iloc: selecciona un valor de la tabla según una fila y columna. 
-#Nota: la numeración de las filas y columnas arranca en 0. 
-#Nota: para la numeración de las columnas, no se tiene en cuenta el índice. 
+demandaModa = {j : tabla1.iloc[j-1, 4] for j in C}     
 
 d = {j : round((demandaMin[j]+demandaMax[j]+demandaModa[j])/3,2) for j in C}    # demanda mensual esperada (ton de café)
 
@@ -88,8 +74,6 @@ plt.show()
 
 ### modelo de optimización
 
-# documentación de PuLP: https://docs.pulpproject.org/pulpcore/
-
 # TODO: definir el problema y el sentido de optimización en PuLP 
 prob = lp.LpProblem(name = 'OptiCoffee', sense = lp.LpMinimize)
 
@@ -116,8 +100,6 @@ for i in B:
 for i in B:
     for j in C:
         prob += x[i,j] <= y[i]
-
-
 
 ### objetivo: minimizar los costos
 # TODO: agregar la función objetivo
