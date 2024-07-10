@@ -11,7 +11,7 @@ By fine-tuning our inventory policies and using the insights from the simulation
 
 ![Simio Warehouse poster](/assets/img/Simio Warehouse - Fall 2023 Simio Case Study.png)
 <a href="https://github.com/gerson-moralesd/portfolio/blob/main/assets/files/SIMIO%20Warehouse.pdf">View poster</a> | 
-<a href="https://github.com/gerson-moralesd/portfolio/blob/main/assets/files/SIMIO%20Warehouse.pdf">Download the simulation</a> 
+<a https://github.com/gerson-moralesd/portfolio/blob/main/assets/files/SIMIO%20Warehouse%20file.spfx">Download the simulation</a> 
 
 ### Optimizing Distribution Networks for OptiCoffee
 OptiCoffee aims to expand its operations in Bogotá and needs to select the best warehouses for storing and transporting coffee. The goal is to ensure a profitable expansion that can meet customer demand while maximizing warehouse capacity.
