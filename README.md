@@ -10,8 +10,9 @@ We determined the best points to reorder stock and calculated optimal inventory 
 By fine-tuning our inventory policies and using the insights from the simulation, we were able to optimize the warehouse's performance, selling nearly 2 million cards monthly and maintaining reasonable costs. This project highlights the value of simulation tools like Simio in making informed decisions and improving warehouse management.
 
 ![Simio Warehouse poster](/assets/img/Simio Warehouse - Fall 2023 Simio Case Study.png)
+<br>
 <a href="https://github.com/gerson-moralesd/portfolio/blob/main/assets/files/SIMIO%20Warehouse.pdf">View poster</a> | 
-<a https://github.com/gerson-moralesd/portfolio/blob/main/assets/files/SIMIO%20Warehouse%20file.spfx">Download the simulation</a> 
+<a href="https://github.com/gerson-moralesd/portfolio/blob/main/assets/files/SIMIO%20Warehouse%20file.spfx">Download the simulation</a> 
 
 ### Optimizing Distribution Networks for OptiCoffee
 OptiCoffee aims to expand its operations in Bogotá and needs to select the best warehouses for storing and transporting coffee. The goal is to ensure a profitable expansion that can meet customer demand while maximizing warehouse capacity.
@@ -23,6 +24,7 @@ We analyzed two scenarios: one with a Triangular distribution and another using 
 This analysis helps OptiCoffee make informed decisions about warehouse selection, balancing cost with the ability to meet customer needs effectively.
 
 ![Optimizing Opticoffee poster](/assets/img/Optimizing Distributions Networks for Opticoffee.png)
+<br>
 <a href="https://github.com/gerson-moralesd/portfolio/blob/main/assets/files/OptiCoffee.pdf">View poster</a> | 
 <a href="https://github.com/gerson-moralesd/portfolio/tree/main/assets/files/OptiCoffee">Open Python files</a> 
 
@@ -36,4 +38,5 @@ MELI's business model includes a comprehensive ecosystem of e-commerce and digit
 The report also addresses the risks and challenges faced by MELI, including operational risks like technological disruptions and macroeconomic factors such as inflation and potential recession. Nonetheless, MELI's strong market positioning, strategic expansions, and robust financial performance underscore its potential for sustained growth and value creation in the Latin American market.
 
 ![CFA Challenge - MELI Document Preview](/assets/img/CFA Challenge - MELI.png)
+<br>
 <a href="https://github.com/gerson-moralesd/portfolio/blob/main/assets/files/CFA%20Challenge%20-%20MELI.pdf">Read the report</a>
