@@ -1,5 +1,20 @@
 # My Projects
 
+### Population Growth and Crime Trends in San Francisco
+During the first part of my Machine Learning and Data Analytics class, we worked using real world data from the government to create models that motivate conversations about policy making addressing crime in San Francisco. We developed two logistic regression models, two random forests models, and one XGBoost model, each demonstrating varying levels of accuracy.
+
+The first task was cleaning the data, which involved geospatial mapping and time feature engineering. We then performed other transformations, such as Label and One-Hot encoding. Finally, we mapped these categories into a lower dimensional space to create a target variable for classification. 
+
+After cleaning the data, we perfomed Exploratory Data Analysis and addressed the dataset limitations. For example, we noticed that the most dangerous neighborhoods by crime count were Soma-Potrero-Mission Bay and Western Addition-Buena Vista-Eureka. However, neighborhood specific tagging, such as demographic information, were only available for the years 2020-2022.
+
+Finally, we proposed some policy recommendations that could be implemented based on our findings. Implementing even a subset of those recommendations should, in the long run, lead to a reduction in crime rates and lead to a more efficient allocation of local government and law enforcement resources.
+
+![Population Growth and Crime Trends poster](/assets/img/Population Growth and Crime Trends in San Francisco.png)
+<br>
+
+<a href="https://github.com/gerson-moralesd/portfolio/blob/main/assets/files/Population%20Growth%20and%20Crime%20Trends.pdf">View poster</a> | 
+<a href="https://github.com/gerson-moralesd/portfolio/blob/main/assets/files/Population%20Growth%20and%20Crime%20Trends%20in%20San%20Francisco.pdf">Read the report</a> 
+
 ### SIMIO WAREHOUSE: Fall 2023 Simio Case Study
 This project focuses on improving the operations of a warehouse that supports an e-commerce platform selling advanced video cards used in applications like AI and cryptocurrency mining. We used Simio simulations to figure out how many workers are needed and to create efficient inventory policies, aiming to boost efficiency, reduce costs, and keep customers happy.
 
@@ -17,7 +32,7 @@ By fine-tuning our inventory policies and using the insights from the simulation
 ### Optimizing Distribution Networks for OptiCoffee
 OptiCoffee aims to expand its operations in Bogotá and needs to select the best warehouses for storing and transporting coffee. The goal is to ensure a profitable expansion that can meet customer demand while maximizing warehouse capacity.
 
-To tackle this, we formulated a mathematical model to design the optimal logistics distribution network for OptiCoffee. We optimized cost-efficient coffee distribution across three national networks, considering cost and distance constraints. Our analysis included developing a Python simulation model to evaluate and refine the proposed network design.
+To accomplish this, we formulated a mathematical model to design the optimal logistics distribution network for OptiCoffee. We optimized cost-efficient coffee distribution across three national networks, considering cost and distance constraints. Our analysis included developing a Python simulation model to evaluate and refine the proposed network design.
 
 We analyzed two scenarios: one with a Triangular distribution and another using the mode scenario. We found that estimating demand with the expected value kept costs low but also lowered the probability of meeting demand. Conversely, using the mode (the most frequently requested value) increased costs but significantly improved the likelihood of meeting demand.
 
