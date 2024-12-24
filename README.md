@@ -9,7 +9,7 @@ After cleaning the data, we perfomed Exploratory Data Analysis and addressed the
 
 Finally, we proposed some policy recommendations that could be implemented based on our findings. Implementing even a subset of those recommendations should, in the long run, lead to a reduction in crime rates and lead to a more efficient allocation of local government and law enforcement resources.
 
-<img src="https://raw.githubusercontent.com/gerson-moralesd/portfolio/assets/img/Population Growth and Crime Trends in San Francisco.png" width="800">
+![Population Growth and Crime Trends poster](/assets/img/Population Growth and Crime Trends in San Francisco.png)
 <br>
 
 <a href="https://github.com/gerson-moralesd/portfolio/blob/main/assets/files/Population%20Growth%20and%20Crime%20Trends.pdf">View poster</a> | 
