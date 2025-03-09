@@ -1,5 +1,19 @@
 # My Projects
 
+### Adaptive Staffing Intelligence
+Given a historical dataset from advertisers around the world, we were tasked with developing a dynamic month-by-month staffing plan that ensured that eligible businesses that advertise on Google could access support from Ads Experts. The unpredictable daily influx of new accounts and the dynamic nature of employee availability makes staffing optimization a challenge. 
+
+EDA was performed using Tableau, leading to various visualizations to analyze trends. Two graphs were specially important: the first one, Budget Distribution per Country, showed that in general, all countries' forecasted budget follows a Lognormal distribution. On the other hand, the Sign-Up amount per Country map shows that the US is a premium market, as it has the higher number of advertisers as well as the highest agent salary. For more visualizations, please refer to the link below the poster.
+
+We created a Semi-Markov Decision Process, which is a technique to model situations where you make decisions, but the time between decisions isn’t fixed. Our strategy was based on hiring and firing employees on the first of every month, following constraints given by the problem. We found out that, if following the model optimization recommendations, markets such as the US, India and China could have a higher net profit of up to two million dollars.
+
+Finally, Although we wanted to compare the Semi-MDP with a Semi-MDP and Deep Q-Network model, we could not do it because of computation limitations. Further improvements to the model include comparing both approaches in order to select the best one. A recommendation for stakeholders is to integrate machine-learning based demand forecasting, as well as our model, to predict advertiser sign-ups and adjust hiring before demand spikes.
+
+![Adaptive Staffing Intelligence poster](/assets/img/Adaptive Staffing Intelligence.png)
+<a href="https://github.com/gerson-moralesd/portfolio/blob/main/assets/files/Poster%20-%20Adaptive%20Staffing%20Intelligence.pdf">View poster</a> | 
+<a href="https://public.tableau.com/app/profile/gerson.morales.deras/viz/AnalyticsScience/Story1?publish=yes">Open Tableau Story</a> 
+<br>
+
 ### Population Growth and Crime Trends in San Francisco
 During the first part of my Machine Learning and Data Analytics class, we worked using real world data from the government to create models that motivate conversations about policy making addressing crime in San Francisco. We developed two logistic regression models, two random forests models, and one XGBoost model, each demonstrating varying levels of accuracy.
 
